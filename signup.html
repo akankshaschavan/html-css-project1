@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin:0;
+            padding:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+        .signup-box{
+            background: rgba(255,255,255,0.9);
+            padding: 25px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            border-radius: 12px;
+            width:320px;
+            text-align: center;
+        }
+
+        .signup-box h2{
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .signup-box input{
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+        }
+        .signup-box input[type="submit"]{
+            background:skyblue;
+            color:white;
+            font-weight: bold;
+            cursor:pointer;
+            border:none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-box">
+        <h2>Signup - Tours &travels</h2>
+        <form action="loginpage.html">
+            <input type="text"placeholder="Enter your Name"required><br>
+             <input type="email"placeholder="Enter your Email"required><br>
+              <input type="password"placeholder="Enter your password"required><br>
+               <input type="password"placeholder="Confirm your Name"required><br>
+               <input type="submit"value="Sign Up"><br><br>
+               <p>Already have an account? <a href="loginpage.html">Log in</a></p>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
